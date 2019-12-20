@@ -4,7 +4,6 @@ import MySQLdb
 import os
 import datetime
 import simplejson as json
-from word2number import w2n
 
 def obtain_location_rows(cursor,request_body):
     location_rows = []
